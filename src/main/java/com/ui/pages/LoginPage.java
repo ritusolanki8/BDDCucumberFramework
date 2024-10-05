@@ -45,5 +45,8 @@ public UIUtils utils = new UIUtils(driver);
         utils.navigateToBack();
         System.out.println("Adding the page titile : " +title);
 
+        System.out.println("New test git : " +title);
+
+
     }
 }
