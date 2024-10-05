@@ -43,6 +43,7 @@ public UIUtils utils = new UIUtils(driver);
         String title = homePageTitle.getText();
         Assert.assertEquals("Register", title, "Not navigated to the register page");
         utils.navigateToBack();
+        System.out.println("Adding the page titile : " +title);
 
     }
 }
